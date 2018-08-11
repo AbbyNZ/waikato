@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Waikato</title>
+<link href="Waikato.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+      function changeCSS(cssFile) {
+ 
+        var oldlink = document.getElementsByTagName("link").item(0);
+ 
+        var newlink = document.createElement("link")
+        newlink.setAttribute("rel", "stylesheet");
+        newlink.setAttribute("type", "text/css");
+        newlink.setAttribute("href", cssFile);
+ 
+        document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
+      }
+</script>
+</head>
+
+<body>
+<div id="header">
+    <img src="Images/portwaikatoBoard.jpg" alt="portwaikato" width="1900" height="300"/>
+</div>
+
+<div id="nav">
+<ul>
+<li><a href="Index.html">Home</a></li>
+<li><a href="Activities_Attraction.html">Activities & Attractions</a></li>
+<li><a href="Accomodation.html">Accomodation</a></li>
+<li><a href="WhereToEat.html">Where To Eat</a></li>
+<li><a href="Events.html">Events</a></li>
+</ul>
+</div>
+
+<div id="left">
+	<img src="Images/small-left-waikato.jpg" width="200" height="1000" alt="WaikatoRiver"/>
+</div>
+
+<div id="right">
+    <img src="Images/small-right-waikato.JPG" width="200" height="1000" alt="Raglan"/>
+</div>
+
+<div id="middle">
+<div id="content">
+<div class="heading">WAIKATO REGION</div>
+
+<p>The Waikato region lies in the upper North Island of New Zealand, surrounded by ranges and bordered on its wild west coast by the Tasman Sea. The region is composed of 11 territorial authories. Hamilton City, Waikato District, South Waikato District, Waipa District, Thames-Coromandel District, Matamata-Piako District, Waitomo District (part), Otorohanga District, Hauraki District, Taupo District (part), and Rotorua District (part).</p>
+
+<p> The region's name is taken from the Waikato River. Waikato is a Maori word. It is translated as "flowing water", "wai" means "water" and "kato" means "the pull of the river current in the sea".</p>
+
+<div id="transbox" onmouseover="this.style.opacity=1;this.filters.alpha.opacity=100" onmouseout="this.style.opacity=0.4;this.filters.alpha.opacity=40">
+<img src="Images/mapWaikato.gif" alt="mapWaikato" class="displayed" />
+</div>
+</div>	
+</div>
+	
+<div class="footer">
+<div class="wrapper">
+<a href="Index.html" target="main">Home</a> | <a href= "Activities_Attraction.html" target="main">Activities & Attraction</a> | 
+        <a href="Accomodation.html"target="main" >Accomodation</a> | <a href="WhereToEat.html" target="main">Where To Eat</a> |
+        <a href="Events.html"target="main">Events</a> | <a href="Sitemap.html" target="main">SiteMap</a> 
+</div>
+<p id="copyright">All content copyright &copy; Bernadette Batanes </p>
+<div class="switch">
+<a href="#" onclick="changeCSS('Waikato.css');">STYLE 1</a>
+<a href="#" onclick="changeCSS('Style2.css');">STYLE 2</a>
+</div>
+</div>
+</body>
+</html>
+
